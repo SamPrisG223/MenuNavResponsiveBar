@@ -83,8 +83,7 @@ body{
     font-size: 32px;
     margin-left: 10px;
     text-shadow: 3px 2px rgb(171, 12, 211);
-    color: indigo;
-    
+    color: indigo;       
 }
 
 .toggle{
@@ -95,7 +94,7 @@ body{
     margin-right: 5px;
     position: absolute;
     top: 1rem;
-    right: 1rem;
+    left: 1rem;
     justify-content: space-between;
 }
 
@@ -123,14 +122,17 @@ body{
         flex-direction: column;
         position: absolute;
         top: 22px;
-        right: 0.05rem;        
+        left: -25px;        
     }
     
     .menubarul li{
         text-align: left;
     }
    
-    
+    .brand{
+        position: absolute;
+    right: 1.5rem; 
+    }    
     
 }
 
