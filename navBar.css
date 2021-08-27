@@ -2,6 +2,7 @@
 body{
     margin: 0;    
     padding: 0;
+    background: white;
 }
 
 .menubar{
@@ -20,6 +21,7 @@ body{
 .menubar ul{
     list-style: none;
     display: flex; 
+   ;
          
 }
 
@@ -27,6 +29,8 @@ body{
     margin-right: 10px;   
     padding: 5px; 
     border-radius: 5px; 
+    cursor: pointer;
+
     
 }
 
@@ -67,16 +71,29 @@ body{
 .menubarul li:hover .submenubar ul li{
     width: 150px;
      border-bottom: 1px dotted grey;
-    background-color: white
+    background-color: white; 
+    padding: 10px; 
     
 }
 
-.submenubar ul li:hover{
-    background-color: white;
+.fa{
+   visibility: collapse;
 }
 
-.issues{
-    margin-top: 55px;
+.container{
+   display: flex;
+   width: 600px;
+   margin: 80px auto;
+   background-color: purple;
+}
+
+.content{
+    display:block;
+    margin-left: 15px;
+}
+
+.content h2{
+    
 }
 
 .brand{
@@ -127,12 +144,24 @@ body{
     
     .menubarul li{
         text-align: left;
+        margin-top: 3px;
     }
    
     .brand{
         position: absolute;
     right: 1.5rem; 
-    }    
+    }   
+    
+    .menubarul li{
+        padding: 5px;
+    }
+
+    .submenubar ul li{
+        position:relative;
+        top: -50px;
+        left: 75px;
+    }  
+       
     
 }
 
